@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.example.GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="43" y="38" width="405" height="387"/>
+    </constraints>
+    <properties>
+      <background color="-14926527"/>
+      <font name="Consolas" size="18" style="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4e767" class="javax.swing.JButton" binding="STARTGAMEButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11833557"/>
+          <font name="Consolas" size="18" style="0"/>
+          <foreground color="-4473925"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <text value="START GAME"/>
+        </properties>
+      </component>
+      <component id="aaf68" class="javax.swing.JButton" binding="IESIREButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11833557"/>
+          <font name="Consolas" size="18" style="0"/>
+          <foreground color="-4473925"/>
+          <horizontalTextPosition value="0"/>
+          <text value="IESIRE"/>
+        </properties>
+      </component>
+      <component id="c14f6" class="javax.swing.JButton" binding="INFORMATIIButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11833557"/>
+          <font name="Consolas" size="18" style="0"/>
+          <foreground color="-4473925"/>
+          <horizontalTextPosition value="0"/>
+          <text value="INFORMATII"/>
+        </properties>
+      </component>
+      <component id="7e7bc" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="3" column="0" row-span="3" col-span="2" vsize-policy="7" hsize-policy="7" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-262"/>
+          <font name="Consolas" size="12" style="0"/>
+          <foreground color="-6776680"/>
+          <text value="Version 1.0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
